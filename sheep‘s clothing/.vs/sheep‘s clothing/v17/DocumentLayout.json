@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\unity project\\sheep\u2018s clothing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|d:\\unity project\\sheep\u2018s clothing\\assets\\scripts\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Launcher.cs",
+              "DocumentMoniker": "D:\\unity project\\sheep\u2018s clothing\\Assets\\Scripts\\Launcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Launcher.cs",
+              "ToolTip": "D:\\unity project\\sheep\u2018s clothing\\Assets\\Scripts\\Launcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Launcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:37:34.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
