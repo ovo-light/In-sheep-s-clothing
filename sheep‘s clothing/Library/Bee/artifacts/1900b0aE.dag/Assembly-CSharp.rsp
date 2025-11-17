@@ -335,6 +335,8 @@
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+-r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonChat.ref.dll"
@@ -385,6 +387,7 @@
 "Assets/Photon/PhotonChat/Demos/Demo Chat/Code/Utilities/TextToggleIsOnTransition.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/Launcher.cs"
+"Assets/Scripts/ShepherdMovement.cs"
 -langversion:9.0
 /deterministic
 /optimize+
