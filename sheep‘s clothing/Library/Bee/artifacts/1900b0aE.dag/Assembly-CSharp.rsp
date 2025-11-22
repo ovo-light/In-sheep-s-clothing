@@ -123,8 +123,22 @@
 -define:PUN_2_0_OR_NEWER
 -define:PUN_2_OR_NEWER
 -define:PUN_2_19_OR_NEWER
+-define:FUSION_WEAVER
+-define:FUSION2
+-define:FUSION_2
+-define:FUSION_2_0
+-define:FUSION_2_0_8
+-define:FUSION_2_OR_NEWER
+-define:FUSION_2_0_OR_NEWER
+-define:FUSION_LOGLEVEL_INFO
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Common.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Log.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll"
+-r:"Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll"
 -r:"Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
 -r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -337,8 +351,11 @@
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@1.11.5/Mono.Cecil.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.6/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Fusion.Unity.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Fusion.Unity.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonChat.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonRealtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/PhotonUnityNetworking.Demos.ref.dll"
@@ -386,9 +403,16 @@
 "Assets/Photon/PhotonChat/Demos/Demo Chat/Code/Utilities/TextButtonTransition.cs"
 "Assets/Photon/PhotonChat/Demos/Demo Chat/Code/Utilities/TextToggleIsOnTransition.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Scripts/Bow.cs"
+"Assets/Scripts/CameraController.cs"
+"Assets/Scripts/DeathTrigger.cs"
+"Assets/Scripts/Hit.cs"
 "Assets/Scripts/Launcher.cs"
+"Assets/Scripts/SheepMovement.cs"
 "Assets/Scripts/ShepherdMovement.cs"
+"Assets/Scripts/Weapon.cs"
 -langversion:9.0
+/unsafe+
 /deterministic
 /optimize+
 /debug:portable

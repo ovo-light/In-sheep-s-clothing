@@ -120,6 +120,14 @@
 -define:PUN_2_0_OR_NEWER
 -define:PUN_2_OR_NEWER
 -define:PUN_2_19_OR_NEWER
+-define:FUSION_WEAVER
+-define:FUSION2
+-define:FUSION_2
+-define:FUSION_2_0
+-define:FUSION_2_0_8
+-define:FUSION_2_OR_NEWER
+-define:FUSION_2_0_OR_NEWER
+-define:FUSION_LOGLEVEL_INFO
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -define:UNITY_EDITOR_ONLY_COMPILATION
@@ -342,6 +350,10 @@
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"D:/unity hud/2022.3.59f1c1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
 -r:"Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@1.11.5/Mono.Cecil.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@1.11.5/Mono.Cecil.Mdb.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@1.11.5/Mono.Cecil.Pdb.dll"
+-r:"Library/PackageCache/com.unity.nuget.mono-cecil@1.11.5/Mono.Cecil.Rocks.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -analyzer:"D:/unity hud/2022.3.59f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/unity hud/2022.3.59f1c1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"

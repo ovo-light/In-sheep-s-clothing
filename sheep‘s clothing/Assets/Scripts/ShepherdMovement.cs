@@ -9,10 +9,13 @@ public class ShepherdMovement : MonoBehaviourPun
     public CharacterController controller;
 
     public float moveSpeed;
+    public float runSpeed;
     public float jumpHight;
     public float gravity = - 9.18f;
     private Vector3 verticalVelocity;
     private bool isGround;
+    private float speed;
+    private bool isRun;
 
     public Camera playerCamera;
     public float mouseSensitivityX;
@@ -53,11 +56,14 @@ public class ShepherdMovement : MonoBehaviourPun
     void MovementAndJump()
     {
         isGround = controller.isGrounded;
+        isRun = Input.GetKey(KeyCode.LeftShift);
 
         if (isGround)
         {
             verticalVelocity.y = -2f;
         }
+
+        speed = isRun ? runSpeed : moveSpeed;
 
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
@@ -74,7 +80,7 @@ public class ShepherdMovement : MonoBehaviourPun
 
         verticalVelocity.y += gravity * Time.deltaTime;
 
-        Vector3 finalMovement = moveDirection * moveSpeed * Time.deltaTime + verticalVelocity * Time.deltaTime;
+        Vector3 finalMovement = moveDirection * speed * Time.deltaTime + verticalVelocity * Time.deltaTime;
         controller.Move(finalMovement);
 
 

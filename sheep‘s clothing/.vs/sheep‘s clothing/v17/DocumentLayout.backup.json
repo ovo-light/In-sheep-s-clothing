@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|d:\\unity project\\\u9003\u6740\u6E38\u620F\\in-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\deathtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\deathtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|d:\\unity project\\\u9003\u6740\u6E38\u620F\\in-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\sheepmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sheepmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\shepherdmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\shepherdmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|d:\\unity project\\\u9003\u6740\u6E38\u620F\\in-sheep-s-clothing\\sheep\u2018s clothing\\assets\\photon\\photonchat\\demos\\demo chat\\code\\utilities\\ignoreuiraycastwheninactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\photon\\photonchat\\demos\\demo chat\\code\\utilities\\ignoreuiraycastwheninactive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|d:\\unity project\\\u9003\u6740\u6E38\u620F\\in-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D9AF1C2-A6F0-0B9C-7689-1558BD8E0C19}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,55 +46,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IgnoreUiRaycastWhenInactive.cs",
-              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Photon\\PhotonChat\\Demos\\Demo Chat\\Code\\Utilities\\IgnoreUiRaycastWhenInactive.cs",
-              "RelativeDocumentMoniker": "Assets\\Photon\\PhotonChat\\Demos\\Demo Chat\\Code\\Utilities\\IgnoreUiRaycastWhenInactive.cs",
-              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Photon\\PhotonChat\\Demos\\Demo Chat\\Code\\Utilities\\IgnoreUiRaycastWhenInactive.cs",
-              "RelativeToolTip": "Assets\\Photon\\PhotonChat\\Demos\\Demo Chat\\Code\\Utilities\\IgnoreUiRaycastWhenInactive.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:21:31.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Camera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera.cs",
-              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Camera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Camera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAIAAAAAAAAAA==",
+              "Title": "DeathTrigger.cs",
+              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\DeathTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DeathTrigger.cs",
+              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\DeathTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DeathTrigger.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T09:55:33.836Z",
+              "WhenOpened": "2025-11-21T08:42:12.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Bow.cs",
+              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Bow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bow.cs",
+              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Bow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bow.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwE4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T08:35:18.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon.cs",
+              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T08:33:19.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SheepMovement.cs",
+              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\SheepMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SheepMovement.cs",
+              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\SheepMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SheepMovement.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwEsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T07:43:54.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ShepherdMovement.cs",
               "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\ShepherdMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShepherdMovement.cs",
               "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\ShepherdMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\ShepherdMovement.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvx0AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwEEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T08:26:41.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T08:26:41.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Launcher.cs",
               "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Launcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Launcher.cs",
               "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\Launcher.cs",
               "RelativeToolTip": "Assets\\Scripts\\Launcher.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBIAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T06:37:34.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-14T06:37:34.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
+              "ToolTip": "D:\\unity project\\\u9003\u6740\u6E38\u620F\\In-sheep-s-clothing\\sheep\u2018s clothing\\Assets\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:02:31.115Z"
             }
           ]
         }
