@@ -7,6 +7,8 @@ public class ShepherdMovement : MonoBehaviourPun
 {
     // Start is called before the first frame update
     public CharacterController controller;
+    public Transform playerBody;
+    public Transform playerBodyUpDown;
 
     public float moveSpeed;
     public float runSpeed;
@@ -24,8 +26,7 @@ public class ShepherdMovement : MonoBehaviourPun
 
     void Start()
     {
-        // 锁定鼠标到屏幕中心（游戏时隐藏鼠标，按Esc解锁）
-        Cursor.lockState = CursorLockMode.Locked;
+        
     }
 
     void Update()
@@ -45,12 +46,14 @@ public class ShepherdMovement : MonoBehaviourPun
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivityX;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivityY;
 
-        xRotation -= mouseY;
+        xRotation += mouseY;
         xRotation = Mathf.Clamp(xRotation, -80f, 80f);
 
-        playerCamera.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        
+        
+        playerBodyUpDown.localRotation = Quaternion.Euler(0f, 0f, xRotation);
+        playerBody.Rotate(Vector3.up * mouseX);
 
-        transform.Rotate(Vector3.up * mouseX);
     }
 
     void MovementAndJump()

@@ -34,7 +34,7 @@ public class NewBehaviourScript : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
         Debug.Log("进入房间，开始实例化Sheep...");
-        PhotonNetwork.Instantiate("Player", new Vector3(0, 0, 0), Quaternion.identity, 0);
+        PhotonNetwork.Instantiate("Sheep", new Vector3(0, 0, 0), Quaternion.identity, 0);
     }
 
 }

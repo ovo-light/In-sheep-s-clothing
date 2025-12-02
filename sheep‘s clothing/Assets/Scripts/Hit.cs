@@ -15,12 +15,18 @@ public class Hit : MonoBehaviour
             return;
 
         // 2. 检测是否命中标靶（Tag为Target）
-        DeathTrigger targetHealth = other.GetComponent<DeathTrigger>();
-        if (targetHealth != null)
+        
+        if (other.CompareTag("Sheep"))
         {
-            // 调用标靶的受伤方法，触发死亡
-            targetHealth.TakeDamage(arrowDamage);
+            // 获取羊玩家身上的这个脚本（比如你的脚本类名是SheepHealth）
+            DeathTrigger targetHealth = other.GetComponent<DeathTrigger>();
+            if (targetHealth != null)
+            {
+                // 调用标靶的受伤方法，触发死亡
+                targetHealth.TakeDamage(arrowDamage);
+            }
         }
+        
 
         // 3. 箭矢自身的命中反馈（嵌入物体、播放音效等，原有逻辑保留）
         //if (hitSound != null)

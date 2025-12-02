@@ -32,8 +32,7 @@ public class SheepMovement : MonoBehaviourPun
 
     void Start()
     {
-        // 锁定鼠标到屏幕中心（游戏时隐藏鼠标，按Esc解锁）
-        Cursor.lockState = CursorLockMode.Locked;
+        
         
     }
 
