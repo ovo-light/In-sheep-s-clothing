@@ -351,9 +351,19 @@
 "Assets/Photon/PhotonChat/Demos/Demo Chat/Code/Utilities/TextButtonTransition.cs"
 "Assets/Photon/PhotonChat/Demos/Demo Chat/Code/Utilities/TextToggleIsOnTransition.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Scripts/Bow.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/DeathTrigger.cs"
+"Assets/Scripts/Entity.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Hit.cs"
 "Assets/Scripts/Launcher.cs"
+"Assets/Scripts/PlayerEntityManager.cs"
+"Assets/Scripts/PlayerRoleEnum.cs"
+"Assets/Scripts/RoomUIHandler.cs"
+"Assets/Scripts/SheepMovement.cs"
 "Assets/Scripts/ShepherdMovement.cs"
+"Assets/Scripts/Weapon.cs"
 -langversion:9.0
 /unsafe+
 /deterministic
