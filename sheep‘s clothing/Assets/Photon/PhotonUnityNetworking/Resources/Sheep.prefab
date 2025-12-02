@@ -120,9 +120,10 @@ GameObject:
   - component: {fileID: 8837288972701923150}
   - component: {fileID: 6468248944958172833}
   - component: {fileID: 1567687026804098584}
+  - component: {fileID: 6285355937469312879}
   m_Layer: 0
   m_Name: Sheep
-  m_TagString: Untagged
+  m_TagString: Sheep
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -267,6 +268,18 @@ MonoBehaviour:
   destroyDelay: 0.5
   hitSound: {fileID: 0}
   hitEffect: {fileID: 0}
+--- !u!114 &6285355937469312879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759801068749628457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 064e2ede88f7f7b49ac4daa0beaa812e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7769657630659690686
 PrefabInstance:
   m_ObjectHideFlags: 0

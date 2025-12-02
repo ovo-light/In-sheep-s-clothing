@@ -43,13 +43,28 @@ public class DeathTrigger : MonoBehaviour
     {
         // 联机场景：只有本地玩家执行死亡逻辑（避免多端重复销毁）
         PhotonView photonView = GetComponent<PhotonView>();
-        if (photonView != null && !photonView.IsMine)
+        if (photonView == null && !photonView.IsMine)
             return;
         // （可选）添加死亡动画：比如标靶倒下、消失时缩放
         //transform.localScale = Vector3.Lerp(transform.localScale, Vector3.zero, destroyDelay);
 
         // 延迟销毁标靶（让死亡动画/反馈完成）
-        Destroy(gameObject, destroyDelay);
+        Invoke(nameof(DestroyEntity), destroyDelay);
+    }
+    private void DestroyEntity()
+    {
+        PhotonView photonView = GetComponent<PhotonView>();
+        if (photonView != null && (photonView.IsMine || PhotonNetwork.IsMasterClient))
+        {
+            PhotonNetwork.Destroy(gameObject); // 此时有权限，不会报错
+                                               // 同步死亡状态到所有客户端（比如隐藏其他客户端的羊实体）
+            photonView.RPC("RPC_SyncSheepDeath", RpcTarget.Others);
+        }
     }
 
+    [PunRPC]
+    private void RPC_SyncSheepDeath()
+    {
+        gameObject.SetActive(false); // 其他客户端直接隐藏，不用销毁（所有者已经销毁了）
+    }
 }
